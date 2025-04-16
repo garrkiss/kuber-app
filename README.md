@@ -2,9 +2,16 @@
 
 ## Задание 1. Создать Deployment и обеспечить доступ к репликам приложения из другого Pod
 
-[Манифест пода](https://github.com/garrkiss/basekuber/blob/main/manifest/pod-hello-world.yaml)
+- [Манифест Deployment](https://github.com/garrkiss/kuber-app/blob/main/manifest/nginx-multitool-deployment.yaml)
+- [Манифест Service](https://github.com/garrkiss/kuber-app/blob/main/manifest/pod-multitool.yaml)
+- [Манифест Pod](https://github.com/garrkiss/kuber-app/blob/main/manifest/svc-nginx-multitool.yaml)
 
-![Ссылка](https://github.com/garrkiss/basekuber/blob/main/img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-04-16%2014-35-17.png)
+### Демонстрация количества реплик
+
+![Ссылка](https://github.com/garrkiss/kuber-app/blob/main/img/1.png)
+
+### Проверка доступности из отдельного пода multitool
+![Ссылка](https://github.com/garrkiss/kuber-app/blob/main/img/2.png)
 
 ## Задание 2. Создать Deployment и обеспечить старт основного контейнера при выполнении условий
 
